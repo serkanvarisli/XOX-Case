@@ -8,6 +8,8 @@
     background-color: #264653;
 }
 
+/* SERKAN VARIŞLI */
+
 #oyuncu {
     text-align: center;
     display: block;
@@ -46,7 +48,6 @@
     border: 1.4px solid black;
     align-items: center;
     justify-content: center;
-    color: rgb(255, 255, 255);
     border-radius: 2.5px;
 
 

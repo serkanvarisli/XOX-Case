@@ -2,6 +2,7 @@ const SiraBelirtici = document.getElementById("oyuncu");
 const TumBloklar = document.getElementById("container");
 const SonucEkrani = document.getElementById("sonuc");
 const Button = document.getElementById("restart");
+const kazanan= document.getElementById("box");
 Button.style.display = "none";
 var sayac = 1;
  
@@ -47,7 +48,8 @@ function sonuc() {
     Button.style.display = "block";
     SonucEkrani.style.display = "block";
     SonucEkrani.innerText = SiraBelirtecDegiskeni + " Kazandı !";
- 
+    kazanan.setClickable(false);
+    
 }
 function kontrol_beraberlik() {
     for (KontrolDegiskeni = 0; KontrolDegiskeni < 9; KontrolDegiskeni++) {
