@@ -43,7 +43,7 @@ function kontrol_capraz() {
     if (TumBloklar.children[2].textContent == TumBloklar.children[4].textContent && TumBloklar.children[2].textContent == TumBloklar.children[6].textContent && TumBloklar.children[2].textContent !== "") sonuc()
 }
 function sonuc() {
-    document.querySelector("#body").style.background = "#000";
+    document.querySelector("#body").style.background = "#363636";
     Button.style.display = "block";
     SonucEkrani.style.display = "block";
     SonucEkrani.innerText = SiraBelirtecDegiskeni + " Kazandı !";
