@@ -21,7 +21,7 @@ function calistir() {
         kontrol_capraz()
         if (SiraBelirtecDegiskeni == "X") SiraBelirtecDegiskeni = "O";
         else SiraBelirtecDegiskeni = "X";
-        SiraBelirtici.innerText = SiraBelirtecDegiskeni + " 'in Sırası";
+        SiraBelirtici.innerText = SiraBelirtecDegiskeni + " Oynuyor";
     } else {
         alert("Lütfen başka bir seçim yapınız!");
     }
