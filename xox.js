@@ -2,7 +2,7 @@ const SiraBelirtici = document.getElementById("oyuncu");
 const TumBloklar = document.getElementById("container");
 const SonucEkrani = document.getElementById("sonuc");
 const Button = document.getElementById("restart");
-const kazanan= document.getElementById("box");
+const kazanan= document.getElementById("birinci");
 Button.style.display = "none";
 var sayac = 1;
  
