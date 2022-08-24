@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+    background-color: #264653;
+}
+
+#oyuncu {
+    text-align: center;
+    display: block;
+    position: relative;
+    top: 50px;
+    font-weight: bold;
+    color: #e9c46a;
+    font-size: 25px;
+}
+
+#header {
+    text-align: center;
+    margin-bottom: 0;
+    margin-top: 40px;
+    font-size: 50px;
+    color: #f4a261;
+}
+
+
+#container {
+    margin: auto;
+    width: 332px;
+    height: 332px;
+    margin-top: 100px;
+    position: relative;
+    display: grid;
+    grid-gap: 1px;
+    grid-template-rows: 110px 110px 110px;
+    grid-template-columns: 110px 110px 110px;
+}
+
+
+
+.box {
+    background: #e9c46a;
+    border: 1.4px solid black;
+    align-items: center;
+    justify-content: center;
+    color: rgb(255, 255, 255);
+    border-radius: 2.5px;
+
+
+}
+
+.yazi {
+    font-size: 85px;
+    position: center;
+    text-align: center;
+    left: 25px;
+    top: 5px;
+    color: #e9c46a;
+}
+
+.yazi:hover {
+    cursor: default;
+}
+
+#sonuc {
+    width: 300px;
+    height: 200px;
+    text-align: center;
+    position: absolute;
+    margin: 60px 0 0 15px;
+    font-weight: bold;
+    display: none;
+    background: #f4a261;
+    font-size: 35px;
+    padding-top: 30px;
+    border-radius: 10px;
+    color: black;
+    padding: 75px 20px;
+    border-style: groove;
+    border-width: 2px;
+    border-color: black;
+
+}
+
+button {
+    padding: 2px 10px;
+    color: black;
+    background: #e76f51;
+    border-radius: 5px;
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    position: relative;
+    justify-content: center;
+
+}
