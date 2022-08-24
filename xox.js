@@ -2,7 +2,6 @@ const SiraBelirtici = document.getElementById("oyuncu");
 const TumBloklar = document.getElementById("container");
 const SonucEkrani = document.getElementById("sonuc");
 const Button = document.getElementById("restart");
-const kazanan= document.getElementById("box");
 Button.style.display = "none";
 var sayac = 1;
  
@@ -44,7 +43,7 @@ function kontrol_capraz() {
     if (TumBloklar.children[2].textContent == TumBloklar.children[4].textContent && TumBloklar.children[2].textContent == TumBloklar.children[6].textContent && TumBloklar.children[2].textContent !== "") sonuc()
 }
 function sonuc() {
-    //document.querySelector("#body").style.background = "#363636";
+    document.querySelector("#body").style.background = "#000";
     Button.style.display = "block";
     SonucEkrani.style.display = "block";
     SonucEkrani.innerText = SiraBelirtecDegiskeni + " Kazandı !";
