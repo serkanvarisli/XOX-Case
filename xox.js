@@ -48,7 +48,7 @@ function sonuc() {
     Button.style.display = "block";
     SonucEkrani.style.display = "block";
     SonucEkrani.innerText = SiraBelirtecDegiskeni + " Kazandı !";
-    kazanan.setClickable(false);
+    TumBloklar.setClickable(false);
     
 }
 function kontrol_beraberlik() {
